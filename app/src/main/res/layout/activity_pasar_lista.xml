@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PasarLista"
+    android:background="#42B1E0">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spestado"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Coloque el Tag en la parte trasera"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@color/white"
+        android:id="@+id/qwert"
+        />
+    <Spinner
+        android:id="@+id/spestado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/nfc2"
+    android:layout_below="@+id/qwert"
+    android:text="ID"
+    android:textSize="55dp"
+    android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

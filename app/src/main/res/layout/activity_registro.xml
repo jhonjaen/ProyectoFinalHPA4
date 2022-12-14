@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registro"
+    android:orientation="vertical"
+    android:id="@+id/lpr">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nombre:"
+    android:id="@+id/nm"
+    android:layout_marginTop="60dp"
+    android:layout_marginLeft="30dp"
+    />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nomnw"
+        android:layout_toRightOf="@+id/nm"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Introduzca el nombre"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="apellido:"
+        android:id="@+id/ap"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/nm"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apenw"
+        android:layout_toRightOf="@+id/nm"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Introduzca el apellido"
+        android:layout_below="@+id/nomnw"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cedula:"
+        android:id="@+id/cd"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/ap"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cednw"
+        android:layout_toRightOf="@+id/nm"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Introduzca la cedula"
+        android:layout_below="@+id/apenw"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="correo:"
+        android:id="@+id/correo"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/cd"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/corrnw"
+        android:layout_toRightOf="@+id/nm"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Ejemp: yonpi.jr@utp.ac.pa"
+        android:layout_below="@+id/cednw"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contraseña:"
+        android:id="@+id/contra"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/correo"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passnw"
+        android:layout_toRightOf="@+id/nm"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Escriba su contraseña"
+        android:layout_below="@+id/corrnw"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passnw"
+        android:text="guardar"
+        android:id="@+id/btn"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+
+        />
+</RelativeLayout>

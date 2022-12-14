@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProyectoFinal2</string>
+
+    <string-array name="estados">
+        <item>Presente</item>
+        <item>Tardanza</item>
+        <item>Ausente</item>
+        <item>Ausente con excusa</item>
+    </string-array>
+
+</resources>

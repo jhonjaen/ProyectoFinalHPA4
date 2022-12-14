@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lbl_id_estudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POR FAVOR, INTRODUZCA SU ID DE ESTUDIANTE"
+            android:gravity="center"/>
+
+        <EditText
+        android:id="@+id/edt_id_estudiante"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:layout_below="@+id/lbl_id_estudiante" />
+        <EditText
+            android:id="@+id/grupo_ver"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:hint="Grupo"
+            android:layout_below="@+id/lbl_id_estudiante"
+            android:layout_toRightOf="@+id/edt_id_estudiante"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btn_id_estudiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VER ASISTENCIA"
+            android:layout_toRightOf="@id/grupo_ver"
+            android:layout_below="@+id/lbl_id_estudiante"
+            android:layout_marginLeft="10dp"/>
+
+        <ListView
+            android:id="@+id/lst_asistencia_estudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_id_estudiante"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
